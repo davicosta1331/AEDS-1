@@ -24,11 +24,24 @@ int main() {
     scanf("%i", &numeral);
     int resto;
     resto = numeral % 2;
-    if(resto == 0){
+    if(resto == 0) {
         printf("\nSeu numero é par");
     }
     else {
         printf("\nSeu numero é impar");
     }
+    int ano;
+    printf("\nAgora verificaremos se o ano é bissexto!");
+    printf("\nDigite o ano em que você se encontra");
+    scanf("%i", &ano);
+    int resto_ano = ano % 4;
+    if(resto_ano == 0){
+        printf("\nO ano é bissexto!!!!!!");
+    }
+    else {
+        printf("\nO ano não é bissexto!!!!!!");
+    }
+
+
     return 0;
 }

@@ -41,6 +41,25 @@ int main() {
     else {
         printf("\nO ano não é bissexto!!!!!!");
     }
+    printf("\nPara melhorar o software, adicionei a função de verificação de triangulos");
+    int ladoA;
+    printf("\nInsira o valor do primeiro lado de um possivel triangulo");
+    scanf("%i", &ladoA);
+    int ladoB;
+    printf("\nInsira o valor do segundo lado de um possivel triangulo");
+    scanf("%i", &ladoB);
+    int ladoC;
+    printf("\nInsira o valor do terceiro lado de um possivel triangulo");
+    scanf("%i", &ladoC);
+    if(ladoA + ladoB > ladoC){
+        if(ladoA + ladoC > ladoB){
+            if(ladoB + ladoC > ladoA)
+            print("\nO triangulo e verdadeiro!!!!");
+        }
+    else 
+    printf("\nO triangulo nao e verdadeiro!!!");
+    }
+
 
 
     return 0;

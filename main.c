@@ -54,7 +54,7 @@ int main() {
     if(ladoA + ladoB > ladoC){
         if(ladoA + ladoC > ladoB){
             if(ladoB + ladoC > ladoA)
-            print("\nO triangulo e verdadeiro!!!!");
+            printf("\nO triangulo e verdadeiro!!!!");
         }
     else 
     printf("\nO triangulo nao e verdadeiro!!!");

@@ -79,5 +79,66 @@ int idade;
     else {
         printf("\nEstamos em Dezembro")
     }
-    return 0;
+    
+    float medida;
+    int op_medida;
+
+    printf("\nNessa sessão poderemos converter algumas medidas não usuais em unidades de medidas usadas com mais frequencia.\n\n");
+
+    printf("Digite sua opcao de convercao\n 1-De Quilometros para Milhas \n 2-De metros para Pés \n 3-De celcius para farenheit \n 4-De quilogramas para libras ");
+    
+    scanf("%i", &op_medida);
+
+    switch(op_medida){
+        case 1:
+        
+        printf("\nDigite seu valor para convercao:\n\n");
+        
+        scanf("%f", &medida);
+
+        medida = medida / 1.60;
+
+        printf("\nO valor em milhas eh: %f", medida);
+
+        break;
+
+        case 2:
+        
+        printf("\nDigite seu valor para convercao:\n\n");
+        
+        scanf("%f", &medida);
+
+        medida = medida * 3.28;
+
+        printf("\nO valor em pes eh: %f", medida);
+
+        break;
+
+        case 3:
+        
+        printf("\nDigite seu valor para convercao:\n\n");
+        
+        scanf("%f", &medida);
+
+        medida = (medida * 1.8) +32;
+
+        printf("\nO valor em farenheit eh: %f", medida);
+
+        break;
+
+        case 4:
+        
+        printf("\nDigite seu valor para convercao:\n\n");
+        
+        scanf("%f", &medida);
+
+        medida = medida * 2.2;
+
+        printf("\nO valor em libras eh: %f", medida);
+
+        break;
+    }
+        return 0;
+
+    
 }

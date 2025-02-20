@@ -68,8 +68,7 @@ int main() {
     else{
         printf("\nEste e um triangulo escaleno");
     }
-    }
-
+    
     int idade;
     printf("\nPor favor digite sua idade para verificar sua maioridade:\n\n"); 
     scanf("%i", &idade);
@@ -113,40 +112,40 @@ int main() {
     printf("\nDigite o numero do mes em que estamos:\n\n");
     scanf("%i", &mes);
     if(mes == 1){
-        printf("\nEstamos em Janeiro")
+        printf("\nEstamos em Janeiro");
     }
     else if(mes == 2){
-        printf("\nEstamos em Fevereiro")
+        printf("\nEstamos em Fevereiro");
     }
     else if(mes == 3){
-        printf("\nEstamos em Marco")
+        printf("\nEstamos em Marco");
     }
     else if(mes == 4){
-        printf("\nEstamos em Abril")
+        printf("\nEstamos em Abril");
     }
     else if(mes == 5){
-        printf("\nEstamos em Maio")
+        printf("\nEstamos em Maio");
     }
     else if(mes == 6){
-        printf("\nEstamos em Junho")
+        printf("\nEstamos em Junho");
     }
     else if(mes == 7){
-        printf("\nEstamos em Julho")
+        printf("\nEstamos em Julho");
     }
     else if(mes == 8){
-        printf("\nEstamos em Agosto")
+        printf("\nEstamos em Agosto");
     }
     else if(mes == 9){
-        printf("\nEstamos em Setembro")
+        printf("\nEstamos em Setembro");
     }
     else if(mes == 10){
-        printf("\nEstamos em Outubro")
+        printf("\nEstamos em Outubro");
     }
     else if(mes == 11){
-        printf("\nEstamos em Novembro")
+        printf("\nEstamos em Novembro");
     }
     else {
-        printf("\nEstamos em Dezembro")
+        printf("\nEstamos em Dezembro");
     }
   
     float medida;
@@ -207,9 +206,11 @@ int main() {
 
         break;
     }
-        return 0;
+       
 
 
 
-    return 0;
+    
+
+   return 0;
 }
